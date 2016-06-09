@@ -1,0 +1,24 @@
+.sections{
+	height:100%;
+	max-width:200%;
+	overflow:hidden;
+	color:#fff;
+
+	.section-list{
+		height:100%;
+		width:100%;
+
+		.section{
+			float:left;
+			position:relative;
+			height:100%;
+			overflow:hidden;
+		}
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	.section-list .section{width:100% !important; height:auto;}
+}
+
+.no-transition{-webkit-transition: none !important; -moz-transition: none !important; -o-transition: none !important; transition: none !important;}
